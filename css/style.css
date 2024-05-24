@@ -14,14 +14,14 @@ body {
     font-family: ABeeZee, sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .abeezee-regular-italic {
+}
+
+.abeezee-regular-italic {
     font-family: ABeeZee, sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
-  
+}
+
 
 .name {
     text-align: right;
@@ -120,7 +120,7 @@ nav {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color:#C4702D;
+    background-color: #C4702D;
     left: 0;
     bottom: -100%;
     border-radius: 50%;
@@ -134,7 +134,7 @@ nav {
 
 
 #nav-part2 h4 a {
-    color:#C4702D;
+    color: #C4702D;
     text-decoration: none;
     position: relative;
     z-index: 9;
@@ -197,7 +197,7 @@ h3 {
     background-size: contain;
     font-family: ABeeZee, Sans-serif;
     font-size: 16px;
-    font-style: italic;
+    font-style: ABeeZee;
     text-align: center;
     color: #656565;
 
@@ -209,6 +209,7 @@ h3 {
     margin-block-end: .9rem;
     margin-bottom: 35px;
     margin-top: 50px;
+    font-family: ABeeZee;
 }
 
 /* .icon-color {
@@ -269,8 +270,8 @@ h2 {
     border-color: #FFF7F2;
     text-align: center;
     color: #252525;
-    font-family: Sans-serif; 
-    font-weight: 850;
+    font-family: Sans-serif;
+    font-weight: 600;
 }
 
 .map-side {
@@ -279,9 +280,12 @@ h2 {
     background-color: #FFFFFF;
     display: flex;
 }
-.map-side:hover{background-color:cadetblue;
-height: 220px;
-width: 225px;}
+
+.map-side:hover {
+    background-color: cadetblue;
+    height: 220px;
+    width: 225px;
+}
 
 .mt-8 {
     margin-top: 50px;
@@ -298,9 +302,74 @@ width: 225px;}
 .footer-head {
     text-decoration: none;
 }
-#last{background-color: black;
-height: 100px;
-width: 100%;
 
-
+.last {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    display: flexbox;
+    text-align: center
 }
+
+.text {
+    display: flexbox;
+    text-align: center;
+    justify-items: center;
+}
+
+.icon2 {
+    text-align: right;
+    margin: 0px 80px 0px 0px;
+    padding-top: 20px;
+}
+
+.bi {
+    margin: 8px;
+}
+
+.card-video {
+    background-image: url(/img/background-pink-01-1.jpg);
+    padding: 20px 225px 20px 190px;
+}
+
+.card-title {
+    margin-left: 60px;
+}
+
+.video {
+    background-image: url(/img/background-pink-01-1.jpg);
+    padding: 20px;
+}
+
+/* careers css */
+
+/* swiper */
+.swiper {  background-image: url(/img/background.jpg);
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .swiper-slide {margin-bottom: 100px;
+    margin-left: 0px;
+
+    text-align: center;
+    font-size: 18px;
+    background: #e0dede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    
+  }
+  .swiper2 {  background-image: url(/img/background-pink-01-1.jpg);
+    width: 100%;
+    height: auto;
+  }
+
+  
