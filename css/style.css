@@ -1,12 +1,12 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     background-color: #FAF9F8;
     font-weight: 400;
 }
 
 .name {
     text-align: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 
@@ -33,7 +33,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 
 
@@ -72,28 +72,33 @@ nav {
 }
 
 .card-background {
-    background: url(/img/background.jpg);
+    background-image: url('../img/background.jpg');
     background-size: cover;
 
 
 }
 
 .card {
-    padding: 50px;
-    padding-left: 130px;
-    background-color: #cfcfdd;
+    /* padding: 60px; */
+    /* padding-left: 130px; */
+    background-color: #EEEFF1;
 }
-
+.p-60px {
+    padding: 60px;
+}
 #nav-part2 h4 {
     padding: 10px 20px;
     border: 1px solid #0000003c;
     border-radius: 50px;
-    font-weight: 500;
     color: #000000bb;
     transition: all ease 0.4s;
     position: relative;
-    font-size: 18px;
     overflow: hidden;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+
 }
 
 #nav-part2 h4::after {
@@ -132,7 +137,7 @@ nav {
 
 .card-body p {
     color: #FFF;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: 23px;
     margin-block-start: 0;
     margin-block-end: .9rem;
@@ -149,7 +154,7 @@ h2 {
     margin-block-start: .5rem;
     margin-block-end: 1rem;
     color: #000000B3;
-    font-family: cursive;
+    font-family: "Montserrat",Sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
@@ -161,10 +166,14 @@ h2 {
 h3 {
     margin-block-start: .5rem;
     margin-block-end: 1rem;
-    font-family: cursive;
+    font-family: "Montserrat",Sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
+}
+
+h4 {
+font-family: "Montserrat",Sans-serif;
 }
 
 .st {
@@ -173,22 +182,23 @@ h3 {
 }
 
 .MD-speech {
-    background-image: url(/img/background-pink-01-1.jpg);
+    background-image: url('../img/background-pink-01-1.jpg');
     background-size: contain;
-    font-family: "ABeeZee", Sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    text-align: center;
     color: #656565;
 
 }
 
 
 .Md-speech {
-    margin-block-start: 0;
-    margin-block-end: .9rem;
-    margin-bottom: 35px;
-    margin-top: 50px;
+    /* margin-block-start: 0; */
+    /* margin-block-end: .9rem;
+    margin-bottom: 35px; */
+    /* margin-top: 50px; */
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+
 }
 
 /* .icon-color {
@@ -219,10 +229,10 @@ h3 {
 }
 
 .story-block {
-    background-image: url(/img/background.jpg);
+    background-image: url('../img/background.jpg');
     display: flex;
     z-index: 4;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .branches {
@@ -249,7 +259,8 @@ h2 {
     border-color: #FFF7F2;
     text-align: center;
     color: #252525;
-    font-family: cursive font-weight: 850;
+    /* font-family: cursive; */
+    font-weight: 850;
 }
 
 .map-side {
@@ -277,3 +288,119 @@ width: 225px;}
 .footer-head {
     text-decoration: none;
 }
+
+.mw-500 {
+    max-height: 500px;
+}
+
+.company-profile span {
+    color: var(--e-global-color-primary);
+    font-family: "Montserrat", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.company-profile h2 {
+    color: var(--e-global-color-primary);
+    font-family: "Montserrat", Sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+}
+.company-hr-line {
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.microfinance p {
+    color: #FFFFFFB0;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.microfinance h3 {
+    padding: 0 0 0 0;
+    color: #FFF;
+    font-size: 32px;
+}
+.elementor-widget-container {
+    margin: 10px 0 10px 0;
+    padding: .5em 0em .5em 2em;
+    background-color: #FFF0;
+    border-style: double;
+    border-width: 0 0 0 8px;
+    border-color: #C4702D;
+}
+
+.carousel-item h1 {
+    top:40%;
+    font-family: "EB Garamond";
+    font-style: italic;
+    height: auto;
+    color: rgb(196, 88, 0);
+    /* text-decoration: none; */
+    /* white-space: normal; */
+    width: 727px;
+    /* min-height: 0px;
+    min-width: 0px; */
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    /* line-height: 41px;
+    letter-spacing: 0px; */
+    font-weight: 700;
+    font-size: 55px;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+    animation-duration: 2s;
+    /* display: none; */
+}
+@keyframes animate {
+    0% { 
+        top: 40%;
+        display: none;
+    }
+    100% {
+        top: 30%;
+        display: block;
+    }
+  }
+
+  .elementskit-border-hr {
+    background-color: #C4702D;
+    width: 40px;
+    height: 2px;
+    margin: 0 0 20px 0;
+    display: inline-block;
+  }
+
+  .elementskit-profile-info {
+    text-align: center;
+    display: block;
+  }
+  .elementskit-author-name {
+    font-size: 32px;
+    margin-bottom: 0;
+    display: block;
+    /* font-size: 18px; */
+    font-weight: 700;
+    color: #000;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+}
+
+.elementskit-author-des {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .5);
+    transition: all .4s ease;
+}
+
+
