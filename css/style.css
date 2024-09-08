@@ -560,3 +560,31 @@ h2 {
     background-color: #f8f9fa;
     opacity: 1;
 }
+.employe-carousel {
+    height: 700px;
+    width: 100%;
+}
+.Employee-Speak {
+text-transform: uppercase;
+    font-family: Montserrat, Sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000B3; margin-left: 30px;
+}
+.employe-speech {
+    background-image: url(/img/background.jpg);
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 10px 150px 10px 150px;
+    padding: 60px;
+    color: #1B1B1BFC;
+    font-family: Montserrat, Sans-serif;
+    font-weight: 400;
+    
+}
+
+.status p {color: #C4702D;
+    text-align: center;
+}
+.status{text-align:center;}
