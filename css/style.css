@@ -2,6 +2,7 @@ body {
     font-family: Montserrat, sans-serif;
     background-color: #FAF9F8;
     font-weight: 400;
+    padding-top: 30px;
 }
 
 /* .montserrat-<uniquifier> {
@@ -102,9 +103,11 @@ nav {
     /* padding-left: 130px; */
     background-color: #EEEFF1;
 }
+
 .p-60px {
     padding: 60px;
 }
+
 #nav-part2 h4 {
     padding: 10px 20px;
     border: 1px solid #0000003c;
@@ -115,7 +118,7 @@ nav {
     position: relative;
     font-size: 15px;
     overflow: hidden;
-    font-family: "Montserrat",Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0;
@@ -173,29 +176,29 @@ nav {
 }
 
 h2 {
-    margin-block-start: .5rem;
-    margin-block-end: 1rem;
+    /* margin-block-start: .5rem;
+    margin-block-end: 1rem; */
     color: #000000B3;
-    font-family: "Montserrat",Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 0;
-    margin-bottom: 30px;
-    line-height: 2;
+    /* margin-bottom: 30px; */
+    line-height: 1;
 }
 
 h3 {
     margin-block-start: .5rem;
     margin-block-end: 1rem;
-    font-family: "Montserrat",Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
 }
 
 h4 {
-font-family: "Montserrat",Sans-serif;
+    font-family: "Montserrat", Sans-serif;
 }
 
 .st {
@@ -276,8 +279,8 @@ font-family: "Montserrat",Sans-serif;
 }
 
 h2 {
-    margin-block-start: .5rem;
-    margin-block-end: 1rem;
+    /* margin-block-start: .5rem;
+    margin-block-end: 1rem; */
 }
 
 .map-speech {
@@ -307,11 +310,12 @@ h2 {
 }
 
 .footer {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-color: #C4702D;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('../img/Footer.png');
 }
 
 .footer-head {
@@ -328,6 +332,7 @@ h2 {
     font-size: 25px;
     font-weight: 700;
 }
+
 .company-profile h2 {
     color: var(--e-global-color-primary);
     font-family: "Montserrat", Sans-serif;
@@ -337,6 +342,7 @@ h2 {
     line-height: 15px;
     letter-spacing: 2.4px;
 }
+
 .company-hr-line {
     margin: 0 auto;
     width: 30%;
@@ -350,13 +356,15 @@ h2 {
     font-size: 18px;
     text-align: center;
 }
+
 .microfinance h3 {
     padding: 0 0 0 0;
     color: #FFF;
     font-size: 32px;
 }
+
 .elementor-widget-container {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 40px 0;
     padding: .5em 0em .5em 2em;
     background-color: #FFF0;
     border-style: double;
@@ -365,56 +373,48 @@ h2 {
 }
 
 .carousel-item h1 {
-    top:40%;
     font-family: "EB Garamond";
     font-style: italic;
-    height: auto;
     color: rgb(196, 88, 0);
-    /* text-decoration: none; */
-    /* white-space: normal; */
-    width: 727px;
-    /* min-height: 0px;
-    min-width: 0px; */
-    max-height: none;
-    max-width: none;
-    text-align: left;
-    /* line-height: 41px;
-    letter-spacing: 0px; */
     font-weight: 700;
-    font-size: 55px;
-    opacity: 1;
-    visibility: visible;
+    font-size: 4vw; /* Responsive font size based on viewport width */
+    text-align: left;
     position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%); /* Center vertically */
+    width: 100%; /* Full width */
     white-space: nowrap;
     overflow: hidden;
     animation: animate 2s linear forwards;
-    animation-duration: 2s;
-    /* display: none; */
 }
+
 @keyframes animate {
-    0% { 
+    0% {
         top: 40%;
         display: none;
     }
+
     100% {
         top: 30%;
         display: block;
     }
-  }
+}
 
-  .elementskit-border-hr {
+.elementskit-border-hr {
     background-color: #C4702D;
     width: 40px;
     height: 2px;
     margin: 0 0 20px 0;
     display: inline-block;
-  }
+}
 
-  .elementskit-profile-info {
+.elementskit-profile-info {
     text-align: center;
     display: block;
-  }
-  .elementskit-author-name {
+}
+
+.elementskit-author-name {
     font-size: 32px;
     margin-bottom: 0;
     display: block;
@@ -474,13 +474,15 @@ h2 {
 /* careers css */
 
 /* swiper */
-.swiper {  background-image: url('../img/background.jpg');
+.swiper {
+    background-image: url('../img/background.jpg');
     width: 100%;
     height: auto;
-    
-  }
 
-  .swiper-slide {margin-bottom: 100px;
+}
+
+.swiper-slide {
+    margin-bottom: 100px;
     margin-left: 0px;
 
     text-align: center;
@@ -489,17 +491,72 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .swiper-slide img {
+}
+
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 300px;
-    object-fit: cover; 
-    
-  }
-  .swiper2 {  background-image: url('../img/background-pink-01-1.jpg');
+    object-fit: cover;
+
+}
+
+.swiper2 {
+    background-image: url('../img/background-pink-01-1.jpg');
     width: 100%;
     height: auto;
-  }
+}
 
-  
+#navbarSupportedContent ul li {
+    padding: 7px 10px;
+    border: 1px solid #0000003c;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 15px;
+    overflow: hidden;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+#navbarSupportedContent ul li a {
+    color: #C4702D;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+#navbarSupportedContent ul li:hover a {
+    color: #FFF7F2;
+}
+
+#navbarSupportedContent ul li::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #C4702D;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+#navbarSupportedContent ul li:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    /* Adjust the value as needed */
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    opacity: 1;
+}
